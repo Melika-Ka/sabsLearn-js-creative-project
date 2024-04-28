@@ -1,0 +1,4 @@
+- [css gradient](https://cssgradient.io/)
+- [css generator](https://cssgenerator.org/)
+- how to copy in copyClipboard in js
+- [js copy clipboard](https://www.w3schools.com/howto/howto_js_copy_clipboard.asp)
