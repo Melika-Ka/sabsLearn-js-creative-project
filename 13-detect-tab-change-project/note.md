@@ -1,0 +1,1 @@
+- [visibilitychange_event in js](https://developer.mozilla.org/en-US/docs/Web/API/Document/visibilitychange_event)
