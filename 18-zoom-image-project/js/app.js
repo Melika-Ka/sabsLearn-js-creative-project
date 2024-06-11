@@ -7,7 +7,8 @@ const reScaleHadler = () => {
 const doubleScaleHadler = (event) => {
   let xOrigin = event.clientX - event.target.offsetLeft;
   let yOrigin = event.clientY - event.target.offsetTop;
-  console.log(xOrigin, yOrigin);
+  console.log(event.clientX, event.target.offsetLeft);
+  console.log(event.clientY, event.target.offsetTop);
   img.style.transform = "scale(2)";
   img.style.transformOrigin = `${xOrigin}px ${yOrigin}px`;
 };
