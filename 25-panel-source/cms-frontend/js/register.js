@@ -57,10 +57,10 @@ submitBtn.addEventListener("click", (event) => {
   if (firstnameValid && lastnameValid && usernameValid) {
     // console.log("hi fetch");
     let newUser = {
-      fistName: firstnameInput.value,
+      firstName: firstnameInput.value,
       lastName: lastnameInput.value,
       userName: usernameInput.value,
-      profile: "",
+      profile: "content/img/profile/banana.png",
     };
     fetch("http://localhost:3000/api/users", {
       method: "POST",
@@ -80,7 +80,7 @@ submitBtn.addEventListener("click", (event) => {
 });
 
 function resetFields() {
-  usernameInput.innerHTML = "";
-  lastnameInput.innerHTML = "";
-  firstnameInput.innerHTML = "";
+  usernameInput.value = "";
+  lastnameInput.value = "";
+  firstnameInput.value = "";
 }
