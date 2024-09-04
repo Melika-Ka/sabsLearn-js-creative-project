@@ -24,7 +24,7 @@
       </div>
     </div>
     <!-- ! edit information of user content ! -->
-    <div class="modal-container">
+    <div class="modal-container edit-modal">
       <!-- ! add visible class to be visible ! -->
       <div class="modal-content">
         <h1 class="modal-title">
@@ -267,7 +267,11 @@
             </h3>
           </div>
 
-          <button type="submit" class="accept-btn mt-3">
+          <button
+            type="submit"
+            class="accept-btn mt-3"
+            onclick="editUser(event)"
+          >
             update information
           </button>
         </form>
